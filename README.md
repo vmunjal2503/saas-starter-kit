@@ -2,6 +2,14 @@
 
 Production-ready SaaS boilerplate with authentication, multi-tenancy, Stripe billing, and role-based access control. Ship your SaaS in days, not months.
 
+## Why I Built This
+
+**The Problem:** Every SaaS application needs the same foundational features — user authentication, team/organization management, subscription billing, and role-based permissions. Founders and developers waste 2-3 months building these boring-but-critical features before they can write a single line of actual product code. And when they rush it, they end up with security vulnerabilities, billing bugs, and spaghetti auth logic.
+
+**The Solution:** This starter kit gives you a production-grade foundation with JWT + OAuth authentication, multi-tenant organizations, Stripe subscriptions (checkout, portal, webhooks), and RBAC — all wired up and working. Fork it, swap in your product features, and launch in days instead of months.
+
+**Built from building SaaS products** and seeing the same patterns repeated across dozens of projects. This captures the architecture I'd use if I were starting a new SaaS today — clean separation of concerns, type safety, and infrastructure-ready with Docker and Terraform.
+
 ```
 ┌─────────────────────────────────────────────────────────────────────┐
 │                        Architecture                                 │
