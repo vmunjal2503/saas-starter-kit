@@ -60,7 +60,7 @@ export default function Home() {
 
       {/* Footer */}
       <footer className="text-center py-8 text-gray-500 text-sm">
-        Built by Difiboffins Technologies
+        Built by Vikas Munjal
       </footer>
     </div>
   );
